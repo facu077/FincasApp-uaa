@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ar.edu.um.fincaspp.uaa"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "uaa",
+    "baseName": "fincasAppUaa",
+    "packageName": "ar.edu.um.fincaspp.uaa",
+    "packageFolder": "ar/edu/um/fincaspp/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTQ2YTZiNjEwMGUwM2NkOTdiNmE0ZjQ1M2NhZTMxNGIzYWE2MTRiMDg1YzlhZTBlNjk3NDI0YWIwNzY1NTcyMWM2ZjQ5OTY4NDVkZWNkZmM0NTU4OWM0YWM5MDM5ZTUxNmMyZGY0ZTY3ZWJhZjUyNjYzODUxZWNhYTMwOWZhNTg=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1603737627817,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true
+  }
+}
