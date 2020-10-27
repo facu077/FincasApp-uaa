@@ -5,7 +5,7 @@
 
     <groupId>ar.edu.um.fincaspp.uaa</groupId>
     <artifactId>fincas-app-uaa</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>Fincas App Uaa</name>
 
@@ -605,7 +605,11 @@
                             <image>adoptopenjdk:11-jre-hotspot</image>
                         </from>
                         <to>
-                            <image>fincasappuaa:latest</image>
+                            <image>facu077/fincasappuaa:${project.version}</image>
+                            <auth>
+                                <username>${DOCKER_REGISTRY_USER}</username>
+                                <password>${DOCKER_REGISTRY_PWD}</password>
+                            </auth>
                         </to>
                         <container>
                             <entrypoint>
