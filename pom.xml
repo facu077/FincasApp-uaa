@@ -605,7 +605,11 @@
                             <image>adoptopenjdk:11-jre-hotspot</image>
                         </from>
                         <to>
-                            <image>facu077/fincasappuaa:${project.version}</image>
+                            <image>facu077/fincasappuaa</image>
+                            <tags>
+                                <tag>${project.version}</tag>
+                                <tag>latest</tag>
+                            </tags>
                             <auth>
                                 <username>${DOCKER_REGISTRY_USER}</username>
                                 <password>${DOCKER_REGISTRY_PWD}</password>
