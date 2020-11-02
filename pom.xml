@@ -5,7 +5,7 @@
 
     <groupId>ar.edu.um.fincaspp.uaa</groupId>
     <artifactId>fincas-app-uaa</artifactId>
-    <version>0.0.1 - TEST</version>
+    <version>0.0.1-TEST</version>
     <packaging>jar</packaging>
     <name>Fincas App Uaa</name>
 
@@ -608,7 +608,7 @@
                             <image>facu077/fincasappuaa</image>
                             <tags>
                                 <tag>${project.version}</tag>
-                                <tag>latest</tag>
+                                <tag>test</tag>
                             </tags>
                             <auth>
                                 <username>${DOCKER_REGISTRY_USER}</username>
